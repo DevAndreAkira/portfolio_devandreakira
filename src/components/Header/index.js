@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 import { FaInfoCircle } from "react-icons/fa";
 import { GiSkills, GiMusicalNotes } from "react-icons/gi";
@@ -88,7 +88,7 @@ const Header = () => {
                         <div className="collapse navbar-collapse flex-column" id="navbarSupportedContent">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0 flex-column">
                                 <li className="nav-item">
-                                    <Link className="navbar-brand nav-link" to="/"><img src={logo} alt="Dev André Akira"
+                                    <Link className="navbar-brand nav-link" to="/portfolio_devandreakira"><img src={logo} alt="Dev André Akira"
                                         width="120" className="logo" />
                                         <p className='mb-4'>{i18n.t('ola.ola')}<br />André Akira</p>
                                     </Link>

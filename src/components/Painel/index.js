@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import { FaInfoCircle } from "react-icons/fa";
 import { GiSkills, GiMusicalNotes } from "react-icons/gi";
 import { BiHistory, BiBookHeart } from "react-icons/bi";
@@ -34,7 +34,7 @@ const Painel = () => {
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
-                        <Link className="navbar-brand" to="/">
+                        <Link className="navbar-brand" to="/portfolio_devandreakira">
                             <img src={logo} alt="Dev André Akira" width="120"
                                 className="logo-mob" /></Link>
 
