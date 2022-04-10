@@ -22,8 +22,8 @@ const Header = () => {
         }
     }
 
-    function ativandoMenu() {
-        document.querySelector("#navbarSupportedContent > ul > li:nth-child(6) > a").classList.add("active");
+    function ativandoMenu(numero) {
+        document.querySelector(`#navbarSupportedContent > ul > li:nth-child(${numero}) > a`).classList.add("active");
     }
 
     window.onload = function () {
@@ -70,7 +70,6 @@ const Header = () => {
         responsiveW();
     }
 
-
     return (
         <>
             <header className="col-md-2 header" >
@@ -81,7 +80,7 @@ const Header = () => {
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
-                        <Link className="navbar-brand " to="/">
+                        <Link className="navbar-brand " to="/portfolio_devandreakira">
                             <img src={logo} alt="Dev André Akira" width="120"
                                 className="logo-mob" /></Link>
 
