@@ -8,6 +8,9 @@ i18next.use(LanguageDetector).init({
     defaultNS: ['translations'],
     fallbackLng: 'pt',
     ns: ['translations'],
+    interpolation: {
+        escapeValue: false,
+    },
     resources: messages
 })
 
