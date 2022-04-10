@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaThLarge, FaStar, FaUserFriends, FaTrash, FaCog, FaInfoCircle } from "react-icons/fa";
+import Link from 'react-router-dom';
+import { FaInfoCircle } from "react-icons/fa";
 import { GiSkills, GiMusicalNotes } from "react-icons/gi";
 import { BiHistory, BiBookHeart } from "react-icons/bi";
 import { SiMinutemailer } from "react-icons/si";
@@ -33,9 +34,9 @@ const Painel = () => {
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
-                        <a className="navbar-brand" href="/">
+                        <Link className="navbar-brand" to="/">
                             <img src={logo} alt="Dev André Akira" width="120"
-                                className="logo-mob" /></a>
+                                className="logo-mob" /></Link>
 
                         <div className="collapse navbar-collapse flex-column" id="navbarSupportedContent">
                             <div>
@@ -50,22 +51,22 @@ const Painel = () => {
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0 flex-column">
 
                                 <li className="nav-item d-flex align-items-center">
-                                    <a className="nav-link" aria-current="page" href="/portfolio_devandreakira/sobre"><FaInfoCircle className='icons' />{i18n.t('nav.sobre')}</a>
+                                    <Link className="nav-link" aria-current="page" to="/portfolio_devandreakira/sobre"><FaInfoCircle className='icons' />{i18n.t('nav.sobre')}</Link>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <a className="nav-link" href="/portfolio_devandreakira/historico"><BiHistory className='icons' />{i18n.t('nav.historico')}</a>
+                                    <Link className="nav-link" to="/portfolio_devandreakira/historico"><BiHistory className='icons' />{i18n.t('nav.historico')}</Link>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <a className="nav-link" href="/portfolio_devandreakira/habilidades"><GiSkills className='icons' />{i18n.t('nav.habilidades')}</a>
+                                    <Link className="nav-link" to="/portfolio_devandreakira/habilidades"><GiSkills className='icons' />{i18n.t('nav.habilidades')}</Link>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <a className="nav-link" href="/portfolio_devandreakira/portfolio"><BiBookHeart className='icons' />{i18n.t('nav.portfolio')}</a>
+                                    <Link className="nav-link" to="/portfolio_devandreakira/portfolio"><BiBookHeart className='icons' />{i18n.t('nav.portfolio')}</Link>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <a className="nav-link" href="/portfolio_devandreakira/hobbies"><GiMusicalNotes className='icons' />{i18n.t('nav.hobbies')}</a>
+                                    <Link className="nav-link" to="/portfolio_devandreakira/hobbies"><GiMusicalNotes className='icons' />{i18n.t('nav.hobbies')}</Link>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <a className="nav-link" href="/portfolio_devandreakira/contato"><SiMinutemailer className='icons' />{i18n.t('nav.contato')}</a>
+                                    <Link className="nav-link" to="/portfolio_devandreakira/contato"><SiMinutemailer className='icons' />{i18n.t('nav.contato')}</Link>
                                 </li>
                             </ul>
                         </div>
