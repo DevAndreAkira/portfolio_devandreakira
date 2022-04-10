@@ -1,8 +1,8 @@
-import { React, useState } from 'react';
+import { React } from 'react';
 
 import Header from '../../components/Header';
 import i18n from '../../components/translate/i18n';
-import { Row, Col, Card, Modal, Button, Tooltip, OverlayTrigger, Tab, Tabs } from 'react-bootstrap';
+import { Row, Col, Card, Tab, Tabs } from 'react-bootstrap';
 import { CgBrowser, CgWindows } from "react-icons/cg";
 
 

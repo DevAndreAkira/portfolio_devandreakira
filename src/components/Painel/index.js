@@ -50,22 +50,22 @@ const Painel = () => {
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0 flex-column">
 
                                 <li className="nav-item d-flex align-items-center">
-                                    <a className="nav-link" aria-current="page" href="/sobre"><FaInfoCircle className='icons' />{i18n.t('nav.sobre')}</a>
+                                    <a className="nav-link" aria-current="page" href="/portfolio_devandreakira/sobre"><FaInfoCircle className='icons' />{i18n.t('nav.sobre')}</a>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <a className="nav-link" href="/historico"><BiHistory className='icons' />{i18n.t('nav.historico')}</a>
+                                    <a className="nav-link" href="/portfolio_devandreakira/historico"><BiHistory className='icons' />{i18n.t('nav.historico')}</a>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <a className="nav-link" href="/habilidades"><GiSkills className='icons' />{i18n.t('nav.habilidades')}</a>
+                                    <a className="nav-link" href="/portfolio_devandreakira/habilidades"><GiSkills className='icons' />{i18n.t('nav.habilidades')}</a>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <a className="nav-link" href="/portfolio"><BiBookHeart className='icons' />{i18n.t('nav.portfolio')}</a>
+                                    <a className="nav-link" href="/portfolio_devandreakira/portfolio"><BiBookHeart className='icons' />{i18n.t('nav.portfolio')}</a>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <a className="nav-link" href="/hobbies"><GiMusicalNotes className='icons' />{i18n.t('nav.hobbies')}</a>
+                                    <a className="nav-link" href="/portfolio_devandreakira/hobbies"><GiMusicalNotes className='icons' />{i18n.t('nav.hobbies')}</a>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <a className="nav-link" href="/contato"><SiMinutemailer className='icons' />{i18n.t('nav.contato')}</a>
+                                    <a className="nav-link" href="/portfolio_devandreakira/contato"><SiMinutemailer className='icons' />{i18n.t('nav.contato')}</a>
                                 </li>
                             </ul>
                         </div>

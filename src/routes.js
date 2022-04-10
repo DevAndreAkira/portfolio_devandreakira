@@ -13,13 +13,13 @@ const Router = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" exact element={<Home />} />
-                <Route path="/sobre" exact element={<Sobre />} />
-                <Route path="/historico" exact element={<Histórico />} />
-                <Route path="/habilidades" exact element={<Habilidades />} />
-                <Route path="/portfolio" exact element={<Portfolio />} />
-                <Route path="/hobbies" exact element={<Hobbies />} />
-                <Route path="/contato" exact element={<Contato />} />
+                <Route path="/portfolio_devandreakira/" exact element={<Home />} />
+                <Route path="/portfolio_devandreakira/sobre" exact element={<Sobre />} />
+                <Route path="/portfolio_devandreakira/historico" exact element={<Histórico />} />
+                <Route path="/portfolio_devandreakira/habilidades" exact element={<Habilidades />} />
+                <Route path="/portfolio_devandreakira/portfolio" exact element={<Portfolio />} />
+                <Route path="/portfolio_devandreakira/hobbies" exact element={<Hobbies />} />
+                <Route path="/portfolio_devandreakira/contato" exact element={<Contato />} />
             </Routes>
         </BrowserRouter>
     );
