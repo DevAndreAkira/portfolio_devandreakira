@@ -13,7 +13,7 @@ import Redes from "../../components/redesSociais";
 import lixo from '../../assets/img/lixo.png';
 import divinity from '../../assets/img/divinity.png';
 
-import divTrans from '../../assets/downloads/Divinity_Fatum_-_PT_BR.zip'
+// import divTrans from '../../assets/downloads/Divinity_Fatum_-_PT_BR.zip'
 
 import './style.scss'
 
@@ -81,7 +81,7 @@ const Hobbies = () => {
             divinity
         ],
         urlTrans: [
-            divTrans
+            ""
         ]
     }
 
@@ -131,7 +131,7 @@ const Hobbies = () => {
                                 {Array.from({ length: totalTraducoes }).map((_, idx) => (
                                     <Col>
                                         <Card className="">
-                                            <a href="../../assets/downloads/Divinity_Fatum_-_PT_BR.zip" download>
+                                            <a href="#">
                                                 <Card.Img variant="bottom" src={hobbies.imgTrans[idx]} />
                                                 <Card.Body>
                                                     <Card.Title>{hobbies.gameTrans[idx]} <CgWindows /></Card.Title>
