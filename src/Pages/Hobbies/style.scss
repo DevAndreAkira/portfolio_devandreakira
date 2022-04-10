@@ -1,0 +1,102 @@
+$ciano: #05c3c3;
+$azul: #0650e5;
+$azulEscuro: #0d101e;
+$cinza: #999999;
+$cinzaClaro: #a4b6c9;
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    padding: 10px;
+}
+
+.--ciano {
+    color: $ciano;
+}
+
+.--azul {
+    color: $azul;
+}
+
+.--ciano-bg {
+    background: $ciano;
+    color: $azulEscuro !important;
+    border: 1px solid transparent;
+}
+
+.--ciano-bg:hover {
+    border: 1px solid transparent;
+    color: $ciano !important;
+    background: $azulEscuro;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.--azul-bg {
+    background: $azul;
+}
+
+.nav-tabs{
+    border-bottom: 1px solid #999;
+}
+
+.card-img,
+.card-img-bottom {
+    object-fit: cover;
+    // min-height: 130px;
+    // @media(max-width:310px){
+    //     min-width: 160px;
+    //     min-height: 123px;
+    // }
+}
+
+.hobbies {
+    .nav-tabs .nav-link:focus,
+    .nav-tabs .nav-link {
+        border: none;
+        border-radius: 0.25rem 0.25rem 0 0;
+    }
+}
+
+.hobbies .card {
+    transition: 0.5s;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid #05c3c32e;
+    .fa-ellipsis-v {
+        color: #fff;
+        transition: 0.5s;
+    }
+    .card-title {
+        color: $ciano;
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+    }
+    .tab-content > .active {
+        display: flex;
+    }
+}
+
+.subTitle-card.card-title.h5 {
+    font-size: 14px !important;
+}
+
+
+.bg-dark {
+    opacity: 0.8;
+}
+
+.bg-dark:hover {
+    opacity: 1;
+    transform: 0.5s;
+}
+
+div > main > div > img:nth-child(n),
+div > main > div > a > img:nth-child(n) {
+    width: 6.666667% !important;
+    margin: 5px;
+}

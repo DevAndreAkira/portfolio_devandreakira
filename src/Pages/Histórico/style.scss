@@ -1,0 +1,22 @@
+$ciano: #05c3c3;
+$azul: #0650e5;
+$azulEscuro: #0d101e;
+$cinza: #999999;
+$cinzaClaro: #a4b6c9;
+
+.card{
+    padding: 10px;
+}
+
+.card-title{
+    color: $ciano;
+}
+
+.bg-dark{
+    opacity: .8;
+}
+
+.bg-dark:hover{
+    opacity: 1;
+    transform: .5s;
+}

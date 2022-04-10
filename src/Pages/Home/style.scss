@@ -1,0 +1,42 @@
+.home .collapse:not(.show) {
+    display: block;
+}
+
+.home .navbar-light .navbar-toggler,
+.home .navbar-brand {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .home .navbar > .container-fluid {
+        display: block;
+    }
+    .home .navbar {
+        padding: 0;
+        margin: 0;
+    }
+    .home header.painel .navbar-nav {
+        flex-direction: column !important;
+    }
+    .home header {
+        height: 95vh;
+    }
+    #root {
+        height: auto;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 0.5rem 1rem;
+    }
+    .home .logo{
+        width: 200px;
+    }
+    .home header.painel .azul{
+        font-size: 16px !important;
+    }
+    .home header.painel .mb-4{
+        font-size: 14px !important;
+    }
+    .home .nav-link{
+        width: 75vw;
+    }
+}

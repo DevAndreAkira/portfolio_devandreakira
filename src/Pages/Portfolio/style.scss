@@ -1,0 +1,151 @@
+$ciano: #05c3c3;
+$azul: #0650e5;
+$azulEscuro: #0d101e;
+$cinza: #999999;
+$cinzaClaro: #a4b6c9;
+
+.card {
+    padding: 10px;
+}
+
+.card-title {
+    color: $ciano;
+}
+
+.bg-dark {
+    opacity: 0.8;
+}
+
+.bg-dark:hover {
+    opacity: 1;
+    transform: 0.5s;
+}
+
+div > div.carousel-inner > div > img {
+    border-radius: 10px !important;
+    margin: -100px 0;
+}
+
+div.carousel-inner > div:nth-child(n) > div > h3 {
+    color: white;
+    font-size: 20px;
+}
+
+div.carousel-inner > div:nth-child(n) > div > a {
+    color: $ciano;
+}
+
+.teste {
+    border-radius: 20px;
+    text-align: center;
+    background: rgba(13, 16, 30, 0.25);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid #05c3c32e;
+}
+
+.carousel-caption {
+    bottom: 25%;
+}
+
+.btn_slider {
+    color: #0d101e !important;
+    background: #05c3c3 !important;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+    font-size: 16px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.btn_slider:hover {
+    color: #05c3c3 !important;
+    background: #0d101e !important;
+}
+
+.desk {
+    display: block;
+}
+.tablet {
+    display: none;
+}
+.cel {
+    display: none;
+}
+
+.carousel-caption {
+    padding: 1.25rem;
+}
+
+@media(max-width:1200px){
+    div > div.carousel-inner > div > img {
+        margin: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    header {
+        height: auto !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .desk {
+        display: none;
+    }
+    .tablet {
+        display: block;
+    }
+    .cel {
+        display: none;
+    }
+    .carousel-caption {
+        top: 25%;
+    }
+    .teste {
+        height: min-content;
+    }
+    main .tablet.carousel.slide.carousel-fade img:nth-child(n) {
+        width: 40px;
+    }
+}
+
+@media (max-width: 464px) {
+    .desk {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+    .cel {
+        display: block;
+    }
+    .carousel-caption {
+        top: 5%;
+    }
+    main .carousel-fade img:nth-child(n) {
+        width: 40px;
+    }
+    .btn_slider {
+        font-size: 12px;
+        padding: 0.5rem;
+    }
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+@media (max-width: 373px) {
+    .teste {
+        height: 90%;
+    }
+    div.carousel-inner > div:nth-child(n) > div > h3 {
+        min-height: 65px;
+        font-size: 18px;
+    }
+    .carousel-caption{
+        right: 5%;
+        left: 5%;
+    }
+}

@@ -1,0 +1,65 @@
+$ciano: #05c3c3;
+$azul: #0650e5;
+$azulEscuro: #0d101e;
+$cinza: #999999;
+$cinzaClaro: #a4b6c9;
+
+.card{
+    padding: 10px;
+}
+
+.card-title{
+    color: $ciano;
+}
+
+.bg-dark{
+    opacity: .8;
+}
+
+.bg-dark:hover{
+    opacity: 1;
+    transform: .5s;
+}
+
+div > main > div > img:nth-child(n),
+div > main > div > a > img:nth-child(n){
+    width: 6.666667% !important;
+    margin: 5px;
+}
+
+textarea{
+    resize: none;
+}
+
+form input, textarea{
+    background: transparent;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    color: #fff;
+    padding: 2px 5px;
+}
+
+form input[type=submit]{
+    background: $ciano;
+    color: $azulEscuro;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+form input[type=submit]:hover{
+    background: $azulEscuro;
+    color: $ciano;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    border: transparent 1px solid;
+}
+
+label{
+    color: #fff;
+}
+
+.go2072408551{
+    background-color: $ciano;
+    color: $azulEscuro;
+}

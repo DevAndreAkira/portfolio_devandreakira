@@ -1,0 +1,256 @@
+$ciano: #05c3c3;
+$azul: #0650e5;
+$azulEscuro: #0d101e;
+$cinza: #999999;
+$cinzaClaro: #a4b6c9;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Share Tech Mono", monospace;
+}
+
+body {
+    display: flex;
+    background-image: url(https://devandreakira.github.io/Portfolio/img/bg.webp);
+}
+
+#root {
+    width: 100%;
+    min-height: auto;
+    background: rgba(3, 1, 15, 0.85);
+    background-image: linear-gradient(#0064c126 0.2vw, transparent 0.2vw),
+        linear-gradient(90deg, #0064c126 0.2vw, transparent 0.2vw);
+    background-size: 3vw 3vw;
+    padding: 1.5rem;
+    min-height: 100vh;
+    max-height: 100%;
+}
+
+header.header nav {
+    border-radius: 20px;
+    background: rgba(13, 16, 30, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid #05c3c32e;
+    transform: translateX(-20px);
+}
+
+main {
+    transform: translateX(20px);
+}
+
+a {
+    text-decoration: unset !important;
+    color: $cinza !important;
+}
+
+p {
+    margin: unset !important;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    margin: unset !important;
+}
+
+.navbar {
+    height: 100%;
+    justify-content: unset !important;
+    // min-width: 170px;
+}
+
+.navbar {
+    margin-right: 0.15rem;
+    padding-right: 0.8rem;
+}
+
+.sobre #navbarSupportedContent > ul > li:nth-child(1) > a {
+    margin: unset !important;
+    padding: unset !important;
+    width: auto;
+}
+
+.navbar-brand {
+    p {
+        font-size: 16px;
+    }
+}
+
+.nav-link {
+    color: $cinza !important;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left;
+    border-radius: 0.25rem;
+    margin: 3px 0;
+    width: 100%;
+}
+
+.nav-link.active {
+    font-weight: 600;
+    color: $azulEscuro !important;
+    background: $ciano !important;
+    border-radius: 0.25rem;
+}
+
+.nav-link:hover {
+    color: $azulEscuro !important;
+    background: $ciano !important;
+    border-radius: 0.25rem;
+    p {
+        color: $azulEscuro !important;
+        font-weight: bold;
+    }
+    img {
+        filter: brightness(0);
+    }
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 1px #05c3c32e;
+}
+
+.fa,
+.fas {
+    margin: 5px 0;
+    margin-right: 5px;
+}
+
+.logo {
+    margin: 15px 0;
+}
+
+div.none,
+.none {
+    display: none !important;
+}
+
+.logo-mob {
+    display: none;
+}
+
+header nav div.container-fluid button {
+    z-index: 9999999;
+    margin: 5px ​0 0 20px;
+}
+
+.upgrade {
+    margin-right: 3rem;
+}
+
+.icons {
+    margin: 5px 0;
+    margin-right: 5px;
+}
+
+@media (min-width: 992px) {
+    // .navbar-light .navbar-brand{
+    //     display: none;
+    // }
+    #navbarSupportedContent > ul {
+        margin: 8px !important;
+    }
+    .navbar-brand {
+        margin: 0 !important;
+    }
+
+    .navbar {
+        padding-right: 0 !important;
+    }
+}
+
+@media (max-width: 991px) {
+    // #root{
+    //     height: 100%;
+    // }
+    .navbar-light .navbar-brand {
+        display: block;
+    }
+    .home header {
+        position: unset !important;
+    }
+
+    header {
+        position: absolute !important;
+        z-index: 99 !important;
+        // width: 250px !important;
+        height: min-content;
+    }
+    #navbarSupportedContent > ul > li:nth-child(1) a {
+        display: flex;
+        align-items: center;
+    }
+    .sobre #navbarSupportedContent > ul > li:nth-child(1) img {
+        margin-left: 10px;
+    }
+    #navbarSupportedContent > ul > li:nth-child(1) img {
+        width: 30px;
+    }
+    #navbarSupportedContent > ul > li:nth-child(1) > a p {
+        margin-bottom: 0 !important;
+        margin-left: 5px !important;
+    }
+    header.header nav {
+        background: unset !important;
+        box-shadow: unset !important;
+        backdrop-filter: blur(0px) !important;
+        -webkit-backdrop-filter: blur(0px) !important;
+        border: 1px solid transparent !important;
+    }
+    #navbarSupportedContent > ul {
+        border-radius: 20px;
+        text-align: left;
+        box-shadow: 0 8px 32px 0 rgba(27, 32, 116, 0.37);
+        background: #0d101ebd;
+        backdrop-filter: blur(4px) !important;
+        -webkit-backdrop-filter: blur(4px) !important;
+        border-radius: 10px;
+        border: 1px solid #05c3c32e;
+        width: 200px;
+    }
+
+    #navbarSupportedContent > ul > li:nth-child(n) {
+        background: #0d101e96;
+        backdrop-filter: blur(4px) !important;
+        -webkit-backdrop-filter: blur(4px) !important;
+    }
+
+    main {
+        width: 100% !important;
+    }
+}
+
+.slide {
+    animation: slide 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.slide2 {
+    animation: slide2 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
