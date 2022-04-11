@@ -38,10 +38,10 @@ import './style.scss'
 
 const Habilidades = () => {
 
-    const [show1, setShow1] = useState(false);
+    // const [show1, setShow1] = useState(false);
 
-    const handleClose1 = () => setShow1(false);
-    const handleShow1 = () => setShow1(true);
+    // const handleClose1 = () => setShow1(false);
+    // const handleShow1 = () => setShow1(true);
 
     const I18N_STORAGE_KEY = 'i18nextLng'
 
