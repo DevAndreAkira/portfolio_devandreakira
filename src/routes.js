@@ -14,12 +14,12 @@ const Router = () => {
         <BrowserRouter>
             <Routes>
                 <Route path="/portfolio_devandreakira/" exact element={<Home />} />
-                <Route path="/portfolio_devandreakira/sobre" exact element={<Sobre />} />
-                <Route path="/portfolio_devandreakira/historico" exact element={<Histórico />} />
-                <Route path="/portfolio_devandreakira/habilidades" exact element={<Habilidades />} />
-                <Route path="/portfolio_devandreakira/portfolio" exact element={<Portfolio />} />
-                <Route path="/portfolio_devandreakira/hobbies" exact element={<Hobbies />} />
-                <Route path="/portfolio_devandreakira/contato" exact element={<Contato />} />
+                <Route path="/portfolio_devandreakira/sobre" element={<Sobre />} />
+                <Route path="/portfolio_devandreakira/historico" element={<Histórico />} />
+                <Route path="/portfolio_devandreakira/habilidades" element={<Habilidades />} />
+                <Route path="/portfolio_devandreakira/portfolio" element={<Portfolio />} />
+                <Route path="/portfolio_devandreakira/hobbies" element={<Hobbies />} />
+                <Route path="/portfolio_devandreakira/contato" element={<Contato />} />
             </Routes>
         </BrowserRouter>
     );
