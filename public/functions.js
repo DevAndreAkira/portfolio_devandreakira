@@ -9,6 +9,30 @@ function trocandoLogo() {
 }
 
 function ativandoMenu(numero) {
+    let endereco = window.location.href;
+
+    endereco = endereco.split("/");
+    console.log(endereco);
+    endereco.forEach((e, index) => {
+        if (endereco[index] === "sobre") {
+            numero = 2;
+        }
+        else if (endereco[index] === "historico") {
+            numero = 2;
+        }
+        else if (endereco[index] === "habilidades") {
+            numero = 3;
+        }
+        else if (endereco[index] === "portfolio") {
+            numero = 4;
+        }
+        else if (endereco[index] === "hobbies") {
+            numero = 5;
+        }
+        else if (endereco[index] === "contato") {
+            numero = 6;
+        }
+    })
     document.querySelector(`#navbarSupportedContent > ul > li:nth-child(${numero}) > a`).classList.add("active");
 }
 

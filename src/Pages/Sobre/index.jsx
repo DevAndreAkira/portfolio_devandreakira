@@ -45,6 +45,8 @@ const Home = () => {
         document.querySelector("#navbarSupportedContent > ul > li:nth-child(2) > a").classList.add("active");
     }
 
+    
+
     return (
         <>
             <div className="App d-flex sobre">
@@ -65,7 +67,7 @@ const Home = () => {
                         <div className="col-md-6 col-lg-8">
                             <p>{i18n.t('conteudo.psobre')}</p>
                             <h2 className='mt-5 titles'>{i18n.t('titles.psobre2')}</h2>
-                            <button type="button" variant="primary" onClick={handleShow1} class="neoBtn" data-toggle="modal" data-target="#exampleModalLong">
+                            <button type="button" variant="primary" onClick={handleShow1} className="neoBtn" data-toggle="modal" data-target="#exampleModalLong">
                                 <BsDisc />
                             </button>
                             <Modal show={show1} onHide={handleClose1}>
@@ -83,7 +85,7 @@ const Home = () => {
                                 </Modal.Footer>
                             </Modal>
 
-                            <button type="button" variant="primary" onClick={handleShow2} class="neoBtn" data-toggle="modal" data-target="#exampleModalLong"><GiWolfHowl /></button>
+                            <button type="button" variant="primary" onClick={handleShow2} className="neoBtn" data-toggle="modal" data-target="#exampleModalLong"><GiWolfHowl /></button>
                             <Modal show={show2} onHide={handleClose2}>
                                 <Modal.Header closeButton>
                                     <Modal.Title>{i18n.t('conteudo.psobreTeste.titles')}</Modal.Title>
@@ -100,7 +102,7 @@ const Home = () => {
                                 </Modal.Footer>
                             </Modal>
 
-                            <button type="button" variant="primary" onClick={handleShow3} class="neoBtn" data-toggle="modal" data-target="#exampleModalLong"><GiBrain /></button>
+                            <button type="button" variant="primary" onClick={handleShow3} className="neoBtn" data-toggle="modal" data-target="#exampleModalLong"><GiBrain /></button>
                             <Modal show={show3} onHide={handleClose3}>
                                 <Modal.Header closeButton>
                                     <Modal.Title>{i18n.t('conteudo.psobrePerso.titles')}</Modal.Title>
