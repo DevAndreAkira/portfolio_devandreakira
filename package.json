@@ -1,7 +1,7 @@
 {
   "name": "projeto_novo",
   "version": "0.1.0",
-  "homepage": "https://devandreakira.github.io/portfolio_devandreakira",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.5.0",
