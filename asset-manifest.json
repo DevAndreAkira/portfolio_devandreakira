@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio_devandreakira/static/css/main.8e358bc6.css",
-    "main.js": "/portfolio_devandreakira/static/js/main.0fae3095.js",
+    "main.css": "/portfolio_devandreakira/static/css/main.323b1d0d.css",
+    "main.js": "/portfolio_devandreakira/static/js/main.6f2f11ff.js",
     "static/media/taboao.png": "/portfolio_devandreakira/static/media/taboao.77e69e95d1dd20089eec.png",
     "static/media/roma.webp": "/portfolio_devandreakira/static/media/roma.9018c3b15ca9a1cff820.webp",
     "static/media/anfarmag.png": "/portfolio_devandreakira/static/media/anfarmag.3979fe611e552a9bffe2.png",
@@ -15,6 +15,7 @@
     "static/media/cf2.jpg": "/portfolio_devandreakira/static/media/cf2.69ca5cd350b51098d7d7.jpg",
     "static/media/anfarmag2.jpg": "/portfolio_devandreakira/static/media/anfarmag2.5ff34145c6d6cdd4b3f6.jpg",
     "static/media/a3tech3.jpg": "/portfolio_devandreakira/static/media/a3tech3.7e8b4b12c635dd926a8a.jpg",
+    "static/media/eisenbahn2.jpg": "/portfolio_devandreakira/static/media/eisenbahn2.a348f03c97dd9f79b649.jpg",
     "static/media/roma3.jpg": "/portfolio_devandreakira/static/media/roma3.b49b3f02de6bd80df935.jpg",
     "static/media/divinity.png": "/portfolio_devandreakira/static/media/divinity.f294fc05aa905ae4804c.png",
     "static/media/la3.jpg": "/portfolio_devandreakira/static/media/la3.9698e4f520c6d9726cf6.jpg",
@@ -27,6 +28,7 @@
     "static/media/we3.jpg": "/portfolio_devandreakira/static/media/we3.08e7b543126208003a26.jpg",
     "static/media/a3tech.webp": "/portfolio_devandreakira/static/media/a3tech.740ed53ebe0a3c363bbb.webp",
     "static/media/elo.png": "/portfolio_devandreakira/static/media/elo.7ad7ec712d8cd36ef6d9.png",
+    "static/media/eisenbahn3.jpg": "/portfolio_devandreakira/static/media/eisenbahn3.f8f9a3beeaeb464df35a.jpg",
     "static/media/bootstrap.png": "/portfolio_devandreakira/static/media/bootstrap.e147534b18ab64b2a787.png",
     "static/media/sqlServer.png": "/portfolio_devandreakira/static/media/sqlServer.56563703fa61878c8976.png",
     "static/media/wordpress.png": "/portfolio_devandreakira/static/media/wordpress.00bff5ca3d03084f3493.png",
@@ -37,6 +39,7 @@
     "static/media/sass.png": "/portfolio_devandreakira/static/media/sass.4df2e29e0a45ba87ea28.png",
     "static/media/mee.webp": "/portfolio_devandreakira/static/media/mee.679235d04d16d0f63579.webp",
     "static/media/gradle.png": "/portfolio_devandreakira/static/media/gradle.cf49253f012afa28888e.png",
+    "static/media/eisenbahn.png": "/portfolio_devandreakira/static/media/eisenbahn.39d22880f89eb64a35f7.png",
     "static/media/electron.png": "/portfolio_devandreakira/static/media/electron.09269f94d833eeb8f326.png",
     "static/media/cordova.png": "/portfolio_devandreakira/static/media/cordova.9d771b62544878b11034.png",
     "static/media/wefood.webp": "/portfolio_devandreakira/static/media/wefood.23aaedf6a918d262d90f.webp",
@@ -63,11 +66,11 @@
     "static/media/brasil.png": "/portfolio_devandreakira/static/media/brasil.c466ce6ae31e6d0520c3.png",
     "static/media/remove-dotspace-min.webp": "/portfolio_devandreakira/static/media/remove-dotspace-min.0accc56a3b7538a57b43.webp",
     "index.html": "/portfolio_devandreakira/index.html",
-    "main.8e358bc6.css.map": "/portfolio_devandreakira/static/css/main.8e358bc6.css.map",
-    "main.0fae3095.js.map": "/portfolio_devandreakira/static/js/main.0fae3095.js.map"
+    "main.323b1d0d.css.map": "/portfolio_devandreakira/static/css/main.323b1d0d.css.map",
+    "main.6f2f11ff.js.map": "/portfolio_devandreakira/static/js/main.6f2f11ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e358bc6.css",
-    "static/js/main.0fae3095.js"
+    "static/css/main.323b1d0d.css",
+    "static/js/main.6f2f11ff.js"
   ]
 }
