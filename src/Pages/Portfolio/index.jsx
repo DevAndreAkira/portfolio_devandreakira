@@ -1,9 +1,8 @@
-import { React, useState } from 'react';
+import { React } from 'react';
 
 import Header from '../../components/Header';
 import i18n from '../../components/translate/i18n';
-import { Row, Col, Card, Modal, Button, Tooltip, OverlayTrigger, Carousel } from 'react-bootstrap';
-import { FaDownload } from "react-icons/fa";
+import { Carousel } from 'react-bootstrap';
 
 
 import brasil from '../../assets/img/brasil.png';
@@ -20,6 +19,7 @@ import we from '../../assets/img/wefood.webp';
 import remove from '../../assets/img/remove-dotspace-min.webp';
 import cloudy from '../../assets/img/cloudy.webp';
 import anfarmag from '../../assets/img/anfarmag.png';
+import eisenbahn from '../../assets/img/eisenbahn.png';
 
 import roma2 from '../../assets/img/roma2.jpg';
 import a32 from '../../assets/img/a3tech2.jpg';
@@ -31,6 +31,8 @@ import we2 from '../../assets/img/we2.jpg';
 import remove2 from '../../assets/img/dot2.jpg';
 import cloudy2 from '../../assets/img/clo2.jpg';
 import anfarmag2 from '../../assets/img/anfarmag2.jpg';
+import eisenbahn2 from '../../assets/img/eisenbahn2.jpg';
+
 
 import roma3 from '../../assets/img/roma3.jpg';
 import a33 from '../../assets/img/a3tech3.jpg';
@@ -42,6 +44,7 @@ import we3 from '../../assets/img/we3.jpg';
 import remove3 from '../../assets/img/dot3.jpg';
 import cloudy3 from '../../assets/img/clo3.jpg';
 import anfarmag3 from '../../assets/img/anfarmag3.jpg';
+import eisenbahn3 from '../../assets/img/eisenbahn3.jpg';
 
 import html from '../../assets/img/html.png';
 import css from '../../assets/img/css.png';
@@ -97,13 +100,17 @@ const Portfolio = () => {
             "Remove DotSpace - 2021",
             "Roma - 2021",
             "Cloudy - 2022",
-            "Anfarmag - 2022"
+            "Anfarmag - 2022",
+            // "Eisenbahn - 2022"
         ],
-        img: [a3, cf, labu, vex, taboao, we, remove, roma, cloudy, anfarmag
+        img: [a3, cf, labu, vex, taboao, we, remove, roma, cloudy, anfarmag, 
+            // eisenbahn
         ],
-        img2: [a32, cf2, labu2, vex2, taboao2, we2, remove2, roma2, cloudy2, anfarmag2
+        img2: [a32, cf2, labu2, vex2, taboao2, we2, remove2, roma2, cloudy2, anfarmag2, 
+            // eisenbahn2
         ],
-        img3: [a33, cf3, labu3, vex3, taboao3, we3, remove3, roma3, cloudy3, anfarmag3
+        img3: [a33, cf3, labu3, vex3, taboao3, we3, remove3, roma3, cloudy3, anfarmag3, 
+            // eisenbahn3
         ],
         url: [
             "https://www.a3tech.com.br/",
@@ -115,7 +122,8 @@ const Portfolio = () => {
             "https://devandreakira.github.io/remove_dotspace/",
             "https://roma.ind.br/",
             "https://devandreakira.github.io/Selecao_BusinessIntegrator/",
-            "https://areadoassociado.anfarmag.org.br/login"
+            "https://areadoassociado.anfarmag.org.br/login",
+            // "https://promogarten-einsenbahn.devandreakira.repl.co/"
         ]
     }
 
@@ -174,7 +182,7 @@ const Portfolio = () => {
                                 />
                                 <Carousel.Caption className="teste">
                                     <h3>{projetos.titulo[idx]}</h3>
-                                    <div>
+                                    <div className='mb-5'>
                                         <img width="50" src={html} alt="" />
                                         <img width="50" src={css} alt="" />
                                         <img width="50" src={js} alt="" />
@@ -188,10 +196,11 @@ const Portfolio = () => {
                                         {projetos.titulo[idx] === "Roma - 2021" ? <><img width="50" src={sass} alt="" /><img width="50" src={react} alt="" /></> : <></>}
                                         {projetos.titulo[idx] === "Cloudy - 2022" ? <><img width="50" src={bootstrap} alt="" /><img width="50" src={sass} alt="" /></> : <></>}
                                         {projetos.titulo[idx] === "Anfarmag - 2022" ? <><img width="50" src={seleniumIde} alt="" /></> : <></>}
+                                        {/* {projetos.titulo[idx] === "Eisenbahn - 2022" ? <><img width="50" src={php} alt="" /><img width="50" src={sass} alt="" /></> : <></>} */}
                                     </div>
-                                    <br /><br />
+
                                     <a href={projetos.url[idx]} target="_blank" rel="noreferrer" className="btn_slider">{i18n.t('projetos.botao')}</a>
-                                    <br /><br />
+
                                 </Carousel.Caption>
                             </Carousel.Item>
                         ))}
@@ -220,6 +229,7 @@ const Portfolio = () => {
                                         {projetos.titulo[idx] === "Roma - 2021" ? <><img width="50" src={sass} alt="" /><img width="50" src={react} alt="" /></> : <></>}
                                         {projetos.titulo[idx] === "Cloudy - 2022" ? <><img width="50" src={bootstrap} alt="" /><img width="50" src={sass} alt="" /></> : <></>}
                                         {projetos.titulo[idx] === "Anfarmag - 2022" ? <><img width="50" src={seleniumIde} alt="" /></> : <></>}
+                                        {/* {projetos.titulo[idx] === "Eisenbahn - 2022" ? <><img width="50" src={php} alt="" /><img width="50" src={sass} alt="" /></> : <></>} */}
                                     </div>
                                     <br /><br />
                                     <a href={projetos.url[idx]} target="_blank" rel="noreferrer" className="btn_slider">{i18n.t('projetos.botao')}</a>
@@ -252,6 +262,7 @@ const Portfolio = () => {
                                         {projetos.titulo[idx] === "Roma - 2021" ? <><img width="50" src={sass} alt="" /><img width="50" src={react} alt="" /></> : <></>}
                                         {projetos.titulo[idx] === "Cloudy - 2022" ? <><img width="50" src={bootstrap} alt="" /><img width="50" src={sass} alt="" /></> : <></>}
                                         {projetos.titulo[idx] === "Anfarmag - 2022" ? <><img width="50" src={seleniumIde} alt="" /></> : <></>}
+                                        {/* {projetos.titulo[idx] === "Eisenbahn - 2022" ? <><img width="50" src={php} alt="" /><img width="50" src={sass} alt="" /></> : <></>} */}
                                     </div>
                                     <br /><br />
                                     <a href={projetos.url[idx]} target="_blank" rel="noreferrer" className="btn_slider">{i18n.t('projetos.botao')}</a>

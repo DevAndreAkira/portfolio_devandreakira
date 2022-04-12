@@ -39,6 +39,11 @@ header.header nav {
     transform: translateX(-20px);
 }
 
+header nav div.container-fluid button {
+    z-index: 9999999;
+    margin: 5px ​0 0 20px;
+}
+
 main {
     transform: translateX(20px);
 }
@@ -73,7 +78,7 @@ ul {
     text-align: center;
 }
 
-.sobre #navbarSupportedContent > ul > li:nth-child(1) > a {
+#navbarSupportedContent > ul > li:nth-child(1) > a {
     margin: unset !important;
     padding: unset !important;
     width: auto;
@@ -136,11 +141,6 @@ div.none,
 
 .logo-mob {
     display: none;
-}
-
-header nav div.container-fluid button {
-    z-index: 9999999;
-    margin: 5px ​0 0 20px;
 }
 
 .upgrade {
