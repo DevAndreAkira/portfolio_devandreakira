@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio_devandreakira/static/css/main.323b1d0d.css",
+    "main.css": "/portfolio_devandreakira/static/css/main.a5cb4901.css",
     "main.js": "/portfolio_devandreakira/static/js/main.6f2f11ff.js",
     "static/media/taboao.png": "/portfolio_devandreakira/static/media/taboao.77e69e95d1dd20089eec.png",
     "static/media/roma.webp": "/portfolio_devandreakira/static/media/roma.9018c3b15ca9a1cff820.webp",
@@ -66,11 +66,11 @@
     "static/media/brasil.png": "/portfolio_devandreakira/static/media/brasil.c466ce6ae31e6d0520c3.png",
     "static/media/remove-dotspace-min.webp": "/portfolio_devandreakira/static/media/remove-dotspace-min.0accc56a3b7538a57b43.webp",
     "index.html": "/portfolio_devandreakira/index.html",
-    "main.323b1d0d.css.map": "/portfolio_devandreakira/static/css/main.323b1d0d.css.map",
+    "main.a5cb4901.css.map": "/portfolio_devandreakira/static/css/main.a5cb4901.css.map",
     "main.6f2f11ff.js.map": "/portfolio_devandreakira/static/js/main.6f2f11ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.323b1d0d.css",
+    "static/css/main.a5cb4901.css",
     "static/js/main.6f2f11ff.js"
   ]
 }
