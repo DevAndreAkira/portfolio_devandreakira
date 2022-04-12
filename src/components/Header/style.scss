@@ -69,6 +69,10 @@ ul {
     padding-right: 0.8rem;
 }
 
+#navbarSupportedContent>ul>li:first-child>a{
+    text-align: center;
+}
+
 .sobre #navbarSupportedContent > ul > li:nth-child(1) > a {
     margin: unset !important;
     padding: unset !important;
