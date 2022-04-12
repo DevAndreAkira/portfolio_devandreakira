@@ -78,11 +78,9 @@ ul {
     text-align: center;
 }
 
-// #navbarSupportedContent > ul > li:nth-child(1) > a {
-//     margin: unset !important;
-//     padding: unset !important;
-//     width: auto;
-// }
+#navbarSupportedContent > ul > li:nth-child(1) > a {
+    margin-left: 0;
+}
 
 .navbar-brand {
     p {
