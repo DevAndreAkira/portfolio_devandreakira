@@ -39,8 +39,8 @@ div.carousel-inner > div:nth-child(n) > div > a {
     border-radius: 20px;
     text-align: center;
     background: rgba(13, 16, 30, 0.25);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: brightness(0.2);
+    -webkit-backdrop-filter: brightness(0.2);
     border-radius: 10px;
     border: 1px solid #05c3c32e;
 }
