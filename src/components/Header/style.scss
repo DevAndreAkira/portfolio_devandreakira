@@ -187,15 +187,16 @@ div.none,
         display: flex;
         align-items: center;
     }
-    .sobre #navbarSupportedContent > ul > li:nth-child(1) img {
-        margin-left: 10px;
-    }
+    // .sobre #navbarSupportedContent > ul > li:nth-child(1) img {
+    //     margin-left: 10px;
+    // }
     #navbarSupportedContent > ul > li:nth-child(1) img {
         width: 30px;
     }
     #navbarSupportedContent > ul > li:nth-child(1) > a p {
         margin-bottom: 0 !important;
         margin-left: 5px !important;
+        text-align: start;
     }
     header.header nav {
         background: unset !important;
