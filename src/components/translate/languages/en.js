@@ -65,6 +65,8 @@ const messages = {
                 titulo: "Hobbies and leisure",
                 game1: "The Human Trashcan",
                 descGame1: "Inspired by the work of Matéi Visniec.",
+                game2: "Arcane 5",
+                descGame2: "Jo-ken-po com estética mística.",
                 traducao: "Translations",
                 descTrans1: "Divinity Fatum, game created in RPG Maker Vx Ace by GreyInvidia in 2013."
             },

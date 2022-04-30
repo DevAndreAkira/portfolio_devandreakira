@@ -11,6 +11,7 @@ import eua from '../../assets/img/eua.png';
 import Redes from "../../components/redesSociais";
 
 import lixo from '../../assets/img/lixo.png';
+import arcane from '../../assets/img/arcane.png';
 import divinity from '../../assets/img/divinity.png';
 
 // import divTrans from '../../assets/downloads/Divinity_Fatum_-_PT_BR.zip'
@@ -66,13 +67,16 @@ const Hobbies = () => {
 
     var hobbies = {
         games: [
-            `${i18n.t('hobbies.game1')}`
+            `${i18n.t('hobbies.game1')}`,
+            `${i18n.t('hobbies.game2')}`
         ],
         imgGames: [
-            lixo
+            lixo,
+            arcane
         ],
         urlGames: [
-            "https://devandreakira.github.io/O-Homem-Lixo/"
+            "https://devandreakira.github.io/O-Homem-Lixo/",
+            'https://devandreakira.github.io/jo-ken-po/'
         ],
         gameTrans: [
             "Divinity Fatum PT-BR"
@@ -110,10 +114,10 @@ const Hobbies = () => {
                                     <Col>
                                         <Card>
                                             <a href={hobbies.urlGames[idx]} target="blank" className=''>
-                                                <Card.Img variant="bottom" src={hobbies.imgGames[idx]} />
+                                                <Card.Img variant="bottom" src={hobbies.imgGames[idx]} width="300" height="200" />
                                                 <Card.Body>
                                                     <Card.Title>{hobbies.games[idx]} <CgBrowser /></Card.Title>
-                                                    <Card.Title className='subTitle-card'>2021</Card.Title>
+                                                    <Card.Title className='subTitle-card'>{hobbies.games[idx] === hobbies.games[0] ? '2021' : '2022'}</Card.Title>
                                                     {/* <Card.Text>
                                         {i18n.t('hobbies.descGame1')}
                                         </Card.Text> */}
@@ -132,7 +136,7 @@ const Hobbies = () => {
                                     <Col>
                                         <Card className="">
                                             <a href="#">
-                                                <Card.Img variant="bottom" src={hobbies.imgTrans[idx]} />
+                                                <Card.Img variant="bottom" src={hobbies.imgTrans[idx]} width="300" height="200" />
                                                 <Card.Body>
                                                     <Card.Title>{hobbies.gameTrans[idx]} <CgWindows /></Card.Title>
                                                     <Card.Title className='subTitle-card'>2022</Card.Title>

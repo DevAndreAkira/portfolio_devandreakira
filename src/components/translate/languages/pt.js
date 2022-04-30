@@ -65,6 +65,8 @@ const messages = {
                 titulo: "Hobbies e lazer",
                 game1: "O Homem-lixo",
                 descGame1: "Inspirado na obra de Matéi Visniec.",
+                game2: "Arcane 5",
+                descGame2: "Jo-ken-po com estética mística.",
                 traducao: "Traduções",
                 descTrans1: "Divinity Fatum, jogo criado em RPG Maker Vx Ace pela GreyInvidia em 2013."
             },
