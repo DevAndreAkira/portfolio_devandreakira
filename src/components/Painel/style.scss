@@ -157,8 +157,9 @@ header nav div.container-fluid button {
 }
 
 @media (min-width: 1500px) {
-    .home .logo{
+    .logo{
         width: 100% !important;
+        max-width: 27vw;
     }
     header.painel .azul{
         font-size: 1.5vw !important;
