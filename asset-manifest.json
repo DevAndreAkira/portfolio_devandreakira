@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio_devandreakira/static/css/main.8da681b3.css",
+    "main.css": "/portfolio_devandreakira/static/css/main.ee594574.css",
     "main.js": "/portfolio_devandreakira/static/js/main.639f48b2.js",
     "static/media/taboao.png": "/portfolio_devandreakira/static/media/taboao.77e69e95d1dd20089eec.png",
     "static/media/roma.webp": "/portfolio_devandreakira/static/media/roma.9018c3b15ca9a1cff820.webp",
@@ -67,11 +67,11 @@
     "static/media/brasil.png": "/portfolio_devandreakira/static/media/brasil.c466ce6ae31e6d0520c3.png",
     "static/media/remove-dotspace-min.webp": "/portfolio_devandreakira/static/media/remove-dotspace-min.0accc56a3b7538a57b43.webp",
     "index.html": "/portfolio_devandreakira/index.html",
-    "main.8da681b3.css.map": "/portfolio_devandreakira/static/css/main.8da681b3.css.map",
+    "main.ee594574.css.map": "/portfolio_devandreakira/static/css/main.ee594574.css.map",
     "main.639f48b2.js.map": "/portfolio_devandreakira/static/js/main.639f48b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.8da681b3.css",
+    "static/css/main.ee594574.css",
     "static/js/main.639f48b2.js"
   ]
 }
