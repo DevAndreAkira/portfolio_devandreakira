@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_devandreakira/static/css/main.42b6fb08.css",
-    "main.js": "/portfolio_devandreakira/static/js/main.ab69ac8f.js",
+    "main.js": "/portfolio_devandreakira/static/js/main.698a8369.js",
     "static/media/taboao.png": "/portfolio_devandreakira/static/media/taboao.77e69e95d1dd20089eec.png",
     "static/media/roma.webp": "/portfolio_devandreakira/static/media/roma.9018c3b15ca9a1cff820.webp",
     "static/media/anfarmag.png": "/portfolio_devandreakira/static/media/anfarmag.3979fe611e552a9bffe2.png",
@@ -59,7 +59,6 @@
     "static/media/dot2.jpg": "/portfolio_devandreakira/static/media/dot2.45e0e13670354df1c25a.jpg",
     "static/media/ai.png": "/portfolio_devandreakira/static/media/ai.305f116a9aa6e0d0f176.png",
     "static/media/figma.png": "/portfolio_devandreakira/static/media/figma.c5b0ad9b67ab140df975.png",
-    "static/media/lixo.png": "/portfolio_devandreakira/static/media/lixo.8d31b1127c0c3407f7f1.png",
     "static/media/dot3.jpg": "/portfolio_devandreakira/static/media/dot3.1d745c85e00f10a6e9c7.jpg",
     "static/media/php.png": "/portfolio_devandreakira/static/media/php.26c9989158ae25edc490.png",
     "static/media/git.png": "/portfolio_devandreakira/static/media/git.7677816fd76e95a86d78.png",
@@ -68,10 +67,10 @@
     "static/media/remove-dotspace-min.webp": "/portfolio_devandreakira/static/media/remove-dotspace-min.0accc56a3b7538a57b43.webp",
     "index.html": "/portfolio_devandreakira/index.html",
     "main.42b6fb08.css.map": "/portfolio_devandreakira/static/css/main.42b6fb08.css.map",
-    "main.ab69ac8f.js.map": "/portfolio_devandreakira/static/js/main.ab69ac8f.js.map"
+    "main.698a8369.js.map": "/portfolio_devandreakira/static/js/main.698a8369.js.map"
   },
   "entrypoints": [
     "static/css/main.42b6fb08.css",
-    "static/js/main.ab69ac8f.js"
+    "static/js/main.698a8369.js"
   ]
 }
