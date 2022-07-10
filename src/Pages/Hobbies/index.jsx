@@ -10,7 +10,7 @@ import brasil from '../../assets/img/brasil.png';
 import eua from '../../assets/img/eua.png';
 import Redes from "../../components/redesSociais";
 
-import lixo from '../../assets/img/lixo.png';
+// import lixo from '../../assets/img/lixo.png';
 import arcane from '../../assets/img/arcane.png';
 import divinity from '../../assets/img/divinity.png';
 
@@ -67,15 +67,15 @@ const Hobbies = () => {
 
     var hobbies = {
         games: [
-            `${i18n.t('hobbies.game1')}`,
+            // `${i18n.t('hobbies.game1')}`,
             `${i18n.t('hobbies.game2')}`
         ],
         imgGames: [
-            lixo,
+            // lixo,
             arcane
         ],
         urlGames: [
-            "https://devandreakira.github.io/O-Homem-Lixo/",
+            // "https://devandreakira.github.io/O-Homem-Lixo/",
             'https://devandreakira.github.io/jo-ken-po/'
         ],
         gameTrans: [
