@@ -118,12 +118,12 @@ const Portfolio = () => {
             "https://www.labufalina.com.br/",
             "https://www.vexrevestimentos.com.br/",
             "https://www.aquinotaboao.com.br/",
-            "https://devandreakira.github.io/we-food/",
+            "https://selecao-wefood.devandreakira.repl.co/",
             "https://devandreakira.github.io/remove_dotspace/",
             "https://roma.ind.br/",
-            "https://devandreakira.github.io/Selecao_BusinessIntegrator/",
+            "https://selecao-businessintegrator.devandreakira.repl.co/",
             "https://areadoassociado.anfarmag.org.br/login",
-            // "https://promogarten-einsenbahn.devandreakira.repl.co/"
+            "https://promogarten-einsenbahn.devandreakira.repl.co/"
         ]
     }
 
@@ -196,7 +196,7 @@ const Portfolio = () => {
                                         {projetos.titulo[idx] === "Roma - 2021" ? <><img width="50" src={sass} alt="" /><img width="50" src={react} alt="" /></> : <></>}
                                         {projetos.titulo[idx] === "Cloudy - 2022" ? <><img width="50" src={bootstrap} alt="" /><img width="50" src={sass} alt="" /></> : <></>}
                                         {projetos.titulo[idx] === "Anfarmag - 2022" ? <><img width="50" src={seleniumIde} alt="" /></> : <></>}
-                                        {/* {projetos.titulo[idx] === "Eisenbahn - 2022" ? <><img width="50" src={php} alt="" /><img width="50" src={sass} alt="" /></> : <></>} */}
+                                        {projetos.titulo[idx] === "Eisenbahn - 2022" ? <><img width="50" src={php} alt="" /><img width="50" src={sass} alt="" /></> : <></>}
                                     </div>
 
                                     <a href={projetos.url[idx]} target="_blank" rel="noreferrer" className="btn_slider">{i18n.t('projetos.botao')}</a>
@@ -229,7 +229,7 @@ const Portfolio = () => {
                                         {projetos.titulo[idx] === "Roma - 2021" ? <><img width="50" src={sass} alt="" /><img width="50" src={react} alt="" /></> : <></>}
                                         {projetos.titulo[idx] === "Cloudy - 2022" ? <><img width="50" src={bootstrap} alt="" /><img width="50" src={sass} alt="" /></> : <></>}
                                         {projetos.titulo[idx] === "Anfarmag - 2022" ? <><img width="50" src={seleniumIde} alt="" /></> : <></>}
-                                        {/* {projetos.titulo[idx] === "Eisenbahn - 2022" ? <><img width="50" src={php} alt="" /><img width="50" src={sass} alt="" /></> : <></>} */}
+                                        {projetos.titulo[idx] === "Eisenbahn - 2022" ? <><img width="50" src={php} alt="" /><img width="50" src={sass} alt="" /></> : <></>}
                                     </div>
                                     <br /><br />
                                     <a href={projetos.url[idx]} target="_blank" rel="noreferrer" className="btn_slider">{i18n.t('projetos.botao')}</a>
@@ -262,7 +262,7 @@ const Portfolio = () => {
                                         {projetos.titulo[idx] === "Roma - 2021" ? <><img width="50" src={sass} alt="" /><img width="50" src={react} alt="" /></> : <></>}
                                         {projetos.titulo[idx] === "Cloudy - 2022" ? <><img width="50" src={bootstrap} alt="" /><img width="50" src={sass} alt="" /></> : <></>}
                                         {projetos.titulo[idx] === "Anfarmag - 2022" ? <><img width="50" src={seleniumIde} alt="" /></> : <></>}
-                                        {/* {projetos.titulo[idx] === "Eisenbahn - 2022" ? <><img width="50" src={php} alt="" /><img width="50" src={sass} alt="" /></> : <></>} */}
+                                        {projetos.titulo[idx] === "Eisenbahn - 2022" ? <><img width="50" src={php} alt="" /><img width="50" src={sass} alt="" /></> : <></>}
                                     </div>
                                     <br /><br />
                                     <a href={projetos.url[idx]} target="_blank" rel="noreferrer" className="btn_slider">{i18n.t('projetos.botao')}</a>
