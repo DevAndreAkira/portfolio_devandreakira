@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_devandreakira/static/css/main.42b6fb08.css",
-    "main.js": "/portfolio_devandreakira/static/js/main.b47aa5c8.js",
+    "main.js": "/portfolio_devandreakira/static/js/main.3107b8a1.js",
     "static/media/taboao.png": "/portfolio_devandreakira/static/media/taboao.77e69e95d1dd20089eec.png",
     "static/media/roma.webp": "/portfolio_devandreakira/static/media/roma.9018c3b15ca9a1cff820.webp",
     "static/media/anfarmag.png": "/portfolio_devandreakira/static/media/anfarmag.3979fe611e552a9bffe2.png",
@@ -67,10 +67,10 @@
     "static/media/remove-dotspace-min.webp": "/portfolio_devandreakira/static/media/remove-dotspace-min.0accc56a3b7538a57b43.webp",
     "index.html": "/portfolio_devandreakira/index.html",
     "main.42b6fb08.css.map": "/portfolio_devandreakira/static/css/main.42b6fb08.css.map",
-    "main.b47aa5c8.js.map": "/portfolio_devandreakira/static/js/main.b47aa5c8.js.map"
+    "main.3107b8a1.js.map": "/portfolio_devandreakira/static/js/main.3107b8a1.js.map"
   },
   "entrypoints": [
     "static/css/main.42b6fb08.css",
-    "static/js/main.b47aa5c8.js"
+    "static/js/main.3107b8a1.js"
   ]
 }
