@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaSearch, FaLinkedinIn, FaGithubAlt, FaDribbble, FaBehance, FaYoutube } from "react-icons/fa";
-import { SiCodersrank, SiCodewars, SiDuolingo } from "react-icons/si";
+import { FaSearch, FaLinkedinIn, FaGithubAlt, FaDribbble, FaBehance, FaYoutube, FaCodepen } from "react-icons/fa";
+import { SiCodersrank, SiCodewars, SiDuolingo, SiReplit } from "react-icons/si";
 import i18n from '../translate/i18n';
 
 
@@ -25,8 +25,18 @@ const RedesSociais = () => {
                         </a>
                     </li>
                     <li>
+                        <a href="https://codepen.io/DevAndreAkira" className="nav-link" target="_blank" rel="noreferrer">
+                            <FaCodepen />
+                        </a>
+                    </li>
+                    <li>
                         <a href="https://github.com/DevAndreAkira" className="nav-link" target="_blank" rel="noreferrer">
                             <FaGithubAlt />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://replit.com/@DevAndreAkira/" className="nav-link" target="_blank" rel="noreferrer">
+                            <SiReplit />
                         </a>
                     </li>
                 </ul>
