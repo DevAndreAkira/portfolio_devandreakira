@@ -100,17 +100,16 @@ const Portfolio = () => {
             "Remove DotSpace - 2021",
             "Roma - 2021",
             "Cloudy - 2022",
-            "Anfarmag - 2022",
-            // "Eisenbahn - 2022"
+            "Anfarmag - 2022"
         ],
-        img: [a3, cf, labu, vex, taboao, we, remove, roma, cloudy, anfarmag, 
-            // eisenbahn
+        img: [a3, cf, labu, vex, taboao, we, remove, roma, cloudy, anfarmag,
+
         ],
-        img2: [a32, cf2, labu2, vex2, taboao2, we2, remove2, roma2, cloudy2, anfarmag2, 
-            // eisenbahn2
+        img2: [a32, cf2, labu2, vex2, taboao2, we2, remove2, roma2, cloudy2, anfarmag2
+
         ],
-        img3: [a33, cf3, labu3, vex3, taboao3, we3, remove3, roma3, cloudy3, anfarmag3, 
-            // eisenbahn3
+        img3: [a33, cf3, labu3, vex3, taboao3, we3, remove3, roma3, cloudy3, anfarmag3
+
         ],
         url: [
             "https://www.a3tech.com.br/",
@@ -122,8 +121,7 @@ const Portfolio = () => {
             "https://devandreakira.github.io/remove_dotspace/",
             "https://roma.ind.br/",
             "https://selecao-businessintegrator.devandreakira.repl.co/",
-            "https://areadoassociado.anfarmag.org.br/login",
-            "https://promogarten-einsenbahn.devandreakira.repl.co/"
+            "https://areadoassociado.anfarmag.org.br/login"
         ]
     }
 
