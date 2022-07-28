@@ -63,7 +63,7 @@ const messages = {
             },
             hobbies: {
                 titulo: "Hobbies and leisure",
-                game1: "The Human Trashcan",
+                game1: "Front-box",
                 descGame1: "Inspired by the work of Matéi Visniec.",
                 game2: "Arcane 5",
                 descGame2: "Jo-ken-po com estética mística.",

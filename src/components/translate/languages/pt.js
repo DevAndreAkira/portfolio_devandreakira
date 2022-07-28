@@ -63,7 +63,7 @@ const messages = {
             },
             hobbies:{
                 titulo: "Hobbies e lazer",
-                game1: "O Homem-lixo",
+                game1: "Front-box",
                 descGame1: "Inspirado na obra de Matéi Visniec.",
                 game2: "Arcane 5",
                 descGame2: "Jo-ken-po com estética mística.",

@@ -10,7 +10,7 @@ import brasil from '../../assets/img/brasil.png';
 import eua from '../../assets/img/eua.png';
 import Redes from "../../components/redesSociais";
 
-// import lixo from '../../assets/img/lixo.png';
+import box from '../../assets/img/front-box.png';
 import arcane from '../../assets/img/arcane.png';
 import divinity from '../../assets/img/divinity.png';
 
@@ -67,15 +67,15 @@ const Hobbies = () => {
 
     var hobbies = {
         games: [
-            // `${i18n.t('hobbies.game1')}`,
+            `${i18n.t('hobbies.game1')}`,
             `${i18n.t('hobbies.game2')}`
         ],
         imgGames: [
-            // lixo,
+            box,
             arcane
         ],
         urlGames: [
-            // "https://devandreakira.github.io/O-Homem-Lixo/",
+            "https://devandreakira.github.io/front-box/",
             'https://devandreakira.github.io/jo-ken-po/'
         ],
         gameTrans: [
@@ -117,7 +117,8 @@ const Hobbies = () => {
                                                 <Card.Img variant="bottom" src={hobbies.imgGames[idx]} width="300" height="200" />
                                                 <Card.Body>
                                                     <Card.Title>{hobbies.games[idx]} <CgBrowser /></Card.Title>
-                                                    <Card.Title className='subTitle-card'>{hobbies.games[idx] === hobbies.games[0] ? '2021' : '2022'}</Card.Title>
+                                                    {/* <Card.Title className='subTitle-card'>{hobbies.games[idx] === hobbies.games[0] ? '2021' : '2022'}</Card.Title> */}
+                                                    <Card.Title className='subTitle-card'>2022</Card.Title>
                                                     {/* <Card.Text>
                                         {i18n.t('hobbies.descGame1')}
                                         </Card.Text> */}
